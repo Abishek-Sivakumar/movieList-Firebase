@@ -1,86 +1,84 @@
-html,body{
-    margin:0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
-
-.montserrat{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}  
-
-#container{
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    margin:40px auto;
-    padding-top: 10px;
-    border-radius: 8px;
-    background-image: linear-gradient(#BFCDE0,#FEFCFD);
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-img{
-    width: 150px;
-    margin: 0 auto;
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 40px auto;
+  padding-top: 10px;
+  border-radius: 8px;
+  background-image: linear-gradient(#bfcde0, #fefcfd);
 }
 
-input{
-    color: #432000;
-    background-color: white;
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    margin:10px auto; 
-    box-shadow: 0px 0px 3px #00416A;
+img {
+  width: 150px;
+  margin: 0 auto;
 }
 
-button{
-    color: #DCE1EB;
-    background-color: #AC485A;
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+input {
+  color: #432000;
+  background-color: white;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 0px 0px 3px #00416a;
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: white;
-    color: #AC485A;
-    border:2px solid #AC485A;
+button {
+  color: #dce1eb;
+  background-color: #ac485a;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
-ul{
-    display: flex;
-    padding: 0;
-    list-style: none;
-    flex-wrap: wrap;
-    gap:10px;
-    font-family: 'Courier', sans-serif;
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #ac485a;
+  border: 2px solid #ac485a;
 }
 
-ul li{
-    font-size: 20px;
-    flex-grow: 1;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px black;
-    text-align: center;
-    color: #00416A;
-    background-image: linear-gradient(to bottom right,#F7F8F8,#ACBB78);
-    transition-delay: 6s ease-in-out 1s;
+ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: "Courier", sans-serif;
 }
 
-ul li:hover{
-    color: #392F5A;
-    cursor: pointer;
-    background-image: linear-gradient(#FFFCF9,whitesmoke);
+ul li {
+  font-size: 20px;
+  flex-grow: 1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px black;
+  text-align: center;
+  color: #00416a;
+  background-image: linear-gradient(to bottom right, #c9ffbf, #ffafbd);
+  transition-delay: 6s ease-in-out 1s;
 }
 
+ul li:hover {
+  color: #392f5a;
+  cursor: pointer;
+  background-image: linear-gradient(#fffcf9, whitesmoke);
+}
