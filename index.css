@@ -73,7 +73,7 @@ ul li {
   box-shadow: 0px 0px 5px black;
   text-align: center;
   color: #00416a;
-  background-image: linear-gradient(to bottom right, #c9ffbf, #ffafbd);
+  background-image: linear-gradient(to bottom right, whitesmoke, #392f5a);
   transition-delay: 6s ease-in-out 1s;
 }
 
